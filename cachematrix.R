@@ -4,6 +4,7 @@ makeCacheMatrix <- function(x = matrix()) {
     x<<-y
     mat<<-NULL
   }
+  ## get function
   get<-function() x
   setmatrix<-function(solve) mat<<- solve
   getmatrix<-function() mat
